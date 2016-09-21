@@ -18,5 +18,20 @@ namespace ViewModels {
             get { return This.Age; }
             set { SetProperty(This.Age, value, () => This.Age = value); }
         }
+        public String Address
+        {
+            get { return This.Address; }
+            set { SetProperty(This.Address, value, () => This.Address = value); }
+        }
+        public String PhoneNumber
+        {
+            get { return This.PhoneNumber; }
+            set { SetProperty(This.PhoneNumber, value, () => This.PhoneNumber = value); }
+        }
+        public String EmailAddress
+        {
+            get { return This.EmailAddress; }
+            set { SetProperty(This.EmailAddress, value, () => This.EmailAddress = value); }
+        }
     }
 }
